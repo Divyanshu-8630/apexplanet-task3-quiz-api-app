@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task 3 - Interactive Quiz & Joke API App</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <h1 class="logo">Task 3 Web App</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+        <li><a href="#api">Joke API</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <span class="badge">ApexPlanet Internship - Task 3</span>
+        <h2>Interactive Quiz and API Integration Project</h2>
+        <p>
+          This project demonstrates advanced CSS and JavaScript by combining
+          responsive design, user interaction, and real-time data from a public API.
+        </p>
+      </div>
+
+      <div class="hero-card">
+        <h3>Task 3 Features</h3>
+        <ul>
+          <li>Responsive layout with media queries</li>
+          <li>Interactive multiple-choice quiz</li>
+          <li>Dynamic joke generator using API fetch</li>
+          <li>Modern UI for desktop, tablet, and mobile</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="quiz" class="card">
+      <h2>JavaScript Quiz</h2>
+      <div id="quizBox">
+        <h3 id="question">Question text</h3>
+        <div id="answers" class="answers"></div>
+        <button id="nextBtn" class="primary-btn">Next Question</button>
+        <p id="quizResult" class="result-text"></p>
+      </div>
+    </section>
+
+    <section id="api" class="card api-section">
+      <h2>Random Joke Generator</h2>
+      <p class="section-text">
+        Click the button below to fetch a fresh programming joke from a public API.
+      </p>
+      <button id="jokeBtn" class="primary-btn">Get Joke</button>
+      <div class="joke-box">
+        <p id="jokeSetup">Click the button to load a joke.</p>
+        <p id="jokePunchline" class="punchline"></p>
+      </div>
+      <p id="apiStatus" class="status-text"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Task 3 Project | Built with HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
